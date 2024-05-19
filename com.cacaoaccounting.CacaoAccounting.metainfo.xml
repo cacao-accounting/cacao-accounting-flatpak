@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2018 BMO Soluciones -->
+<component type="desktop-application">
+  <id>com.cacaoaccounting.CacaoAccounting</id>
+  <name>Cacao Accounting</name>
+  <developer_name>BMO Soluciones</developer_name>
+  <developer id="dev.pulsar_edit">
+    <name translatable="no">BMO Soluciones</name>
+  </developer>
+  <summary>Accounting solution for small and medium businesses</summary>
+  <launchable type="desktop-id">com.cacaoaccountig.CacaoAccounting.desktop</launchable>
+  <metadata_license>CC-BY-4.0</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <url type="homepage">https://github.com/cacao-accounting</url>
+  <url type="bugtracker">https://github.com/cacao-accounting/cacao-accounting/issues</url>
+  <url type="vcs-browser">https://github.com/cacao-accounting/cacao-accounting</url>
+  <branding>
+  <color type="primary" scheme_preference="light">#7eae91</color>
+  <color type="primary" scheme_preference="dark">#98a49c</color>
+  </branding>
+  <update_contact>development@bmogroup.solutions</update_contact>
+  <description>
+    <p>Pulsar aims to not only reach feature parity with the original Atom text editor, but update the underlying architecture and support modern features.</p>
+  </description>
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">https://bmogroup.solutions/media/cacao-accounting-login.png</image>
+      <caption>Login screen of Cacao Accounting</caption>
+    </screenshot>
+  </screenshots>
+  <keywords>
+    <keyword>accounting</keyword>
+    <keyword>finance</keyword>
+  </keywords>
+  <releases>
+    <release version="2014.05" date="2024-05-16"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

@@ -1,0 +1,43 @@
+app-id: com.cacaoaccounting.CacaoAccounting
+runtime: org.freedesktop.Platform
+runtime-version: "23.08"
+sdk: org.freedesktop.Sdk
+command: cacao_accounting_desktop
+finish-args:
+  - --socket=fallback-x11
+  - --socket=wayland
+  - --filesystem=xdg-documents
+modules:
+  - python_tkinter.json
+  - pypi_packages.json
+
+  - name: cacaoaccounting
+    buildsystem: simple
+    build-commands:
+      - install -D com.cacaoaccounting.CacaoAccounting.desktop /app/share/applications/com.cacaoaccounting.CacaoAccounting.desktop
+      - install -D com.cacaoaccounting.CacaoAccounting.metainfo.xml /app/share/metainfo/com.cacaoaccounting.CacaoAccounting.metainfo.xml
+      - install -D 16x16.png /app/share/icons/hicolor/16x16/apps/com.cacaoaccounting.CacaoAccounting.png
+      - install -D 32x32.png /app/share/icons/hicolor/32x32/apps/com.cacaoaccounting.CacaoAccounting.png
+      - install -D 48x48.png /app/share/icons/hicolor/48x48/apps/com.cacaoaccounting.CacaoAccounting.png
+      - install -D 64x64.png /app/share/icons/hicolor/64x64/apps/com.cacaoaccounting.CacaoAccounting.png
+      - install -D 256x256.png /app/share/icons/hicolor/256x256/apps/com.cacaoaccounting.CacaoAccounting.png
+      - install -D scalable.svg /app/share/icons/hicolor/scalable/apps/com.cacaoaccounting.CacaoAccounting.svg
+    sources:
+      - type: file
+        path: com.cacaoaccounting.CacaoAccounting.desktop
+      - type: file
+        path: com.cacaoaccounting.CacaoAccounting.metainfo.xml
+      - type: file
+        path: com.cacaoaccounting.CacaoAccounting.metainfo.xml
+      - type: file
+        path: icons/scalable.svg
+      - type: file
+        path: icons/256x256.png
+      - type: file
+        path: icons/16x16.png
+      - type: file
+        path: icons/32x32.png
+      - type: file
+        path: icons/48x48.png
+      - type: file
+        path: icons/64x64.png
