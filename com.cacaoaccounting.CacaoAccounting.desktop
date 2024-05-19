@@ -2,5 +2,4 @@
 Type=Application
 Name=Cacao Accounting
 Exec=cacao_accounting_desktop
-Icon=com.cacaoaccounting.CacaoAccounting
 Categories=Office;
