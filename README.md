@@ -23,5 +23,7 @@ flatpak run org.flatpak.Builder build-dir --force-clean com.cacaoaccounting.Caca
 
 ## Test the flatpak
 
-$ flatpak-builder --user --install --force-clean build-dir com.cacaoaccounting.CacaoAccounting.yml
-$ flatpak run com.cacaoaccounting.CacaoAccounting
+```
+flatpak-builder --user --install --force-clean build-dir com.cacaoaccounting.CacaoAccounting.yml
+flatpak run com.cacaoaccounting.CacaoAccounting
+```
