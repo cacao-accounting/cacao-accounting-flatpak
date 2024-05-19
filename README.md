@@ -18,5 +18,10 @@ The python version must match the [python version in the freedesktop runtime](ht
 ```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08
-flatpak run org.flatpak.Builder build-dir com.cacaoaccounting.CacaoAccounting.yml --force-clean
+flatpak run org.flatpak.Builder build-dir --force-clean com.cacaoaccounting.CacaoAccounting.yml
 ```
+
+## Test the flatpak
+
+$ flatpak-builder --user --install --force-clean build-dir com.cacaoaccounting.CacaoAccounting.yml
+$ flatpak run com.cacaoaccounting.CacaoAccounting

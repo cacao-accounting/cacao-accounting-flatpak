@@ -29,8 +29,6 @@ modules:
       - type: file
         path: com.cacaoaccounting.CacaoAccounting.metainfo.xml
       - type: file
-        path: icons/scalable.svg
-      - type: file
         path: icons/256x256.png
       - type: file
         path: icons/16x16.png
@@ -40,3 +38,5 @@ modules:
         path: icons/48x48.png
       - type: file
         path: icons/64x64.png
+      - type: file
+        path: icons/scalable.svg
