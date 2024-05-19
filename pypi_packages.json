@@ -334,13 +334,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/bc/9c/21bd9933013098449f73b874ca2b273338fcd32a9dac206464e7b047b819/staging_cacao_accounting-0.0.1b20240513-py3-none-any.whl",
-            "sha256": "bfa78cc2089f57668b9c690f5286921ddb0f07c35e83118792b9bba3ab8432f2"
+            "url": "https://files.pythonhosted.org/packages/a4/bf/8cb76b56d1e14dfede60049fa2fac6a146d3d67bf9d82807ebbbc41426f4/staging_cacao_accounting-0.0.1b20240519-py3-none-any.whl",
+            "sha256": "03a709249a8b273d00423bf437d2681f73c5e35e265b8b77f036d2cfd02fa789"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/23/df/ec014e0dd5d5882e7e3412eba7e2b082310ce1ac8eab7a0dfc2eba5b8377/staging_cacao_accounting_desktop-2024.5.13-py3-none-any.whl",
-            "sha256": "603d8b1b01f7a64e7995c079265f4916332f9f8734a25d4a91b7530bb2745d05"
+            "url": "https://files.pythonhosted.org/packages/fa/5d/7484d63c6643d1858f35479761b53b7f76cd2135b599f0f1325cc6bd6f16/staging_cacao_accounting_desktop-2024.5.20-py3-none-any.whl",
+            "sha256": "118aa7a9248c54c65e334685218e805f991a7a6eb21b1f3af0b7f78dea0ffd77"
         },
         {
             "type": "file",
