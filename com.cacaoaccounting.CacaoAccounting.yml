@@ -10,18 +10,17 @@ finish-args:
 modules:
   - python_tkinter.json
   - pypi_packages.json
-
   - name: cacaoaccounting
     buildsystem: simple
     build-commands:
-      - install -D com.cacaoaccounting.CacaoAccounting.desktop /app/share/applications/com.cacaoaccounting.CacaoAccounting.desktop
-      - install -D com.cacaoaccounting.CacaoAccounting.metainfo.xml /app/share/metainfo/com.cacaoaccounting.CacaoAccounting.metainfo.xml
-      - install -D 16x16.png /app/share/icons/hicolor/16x16/apps/com.cacaoaccounting.CacaoAccounting.png
-      - install -D 32x32.png /app/share/icons/hicolor/32x32/apps/com.cacaoaccounting.CacaoAccounting.png
-      - install -D 48x48.png /app/share/icons/hicolor/48x48/apps/com.cacaoaccounting.CacaoAccounting.png
-      - install -D 64x64.png /app/share/icons/hicolor/64x64/apps/com.cacaoaccounting.CacaoAccounting.png
-      - install -D 256x256.png /app/share/icons/hicolor/256x256/apps/com.cacaoaccounting.CacaoAccounting.png
-      - install -D scalable.svg /app/share/icons/hicolor/scalable/apps/com.cacaoaccounting.CacaoAccounting.svg
+      - install -D com.cacaoaccounting.CacaoAccounting.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+      - install -D com.cacaoaccounting.CacaoAccounting.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+      - install -D 16x16.png ${FLATPAK_DEST}/share/icons/hicolor/16x16/apps/${FLATPAK_ID}.png
+      - install -D 32x32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/${FLATPAK_ID}.png
+      - install -D 48x48.png ${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/${FLATPAK_ID}.png
+      - install -D 64x64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
+      - install -D 256x256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+      - install -D scalable.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
     sources:
       - type: file
         path: com.cacaoaccounting.CacaoAccounting.desktop
