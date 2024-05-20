@@ -16,7 +16,7 @@ Note that cacao-accounting unit tests must past with those libraries in the virt
 
 Update python packages manifest with
 
-
+```
 pip install req2flatpak setuptools
 req2flatpak --requirements-file requirements.txt --target-platforms 311-x86_64 --outfile pypi_packages.json
 ```
