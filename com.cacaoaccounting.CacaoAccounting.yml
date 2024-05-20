@@ -16,8 +16,6 @@ modules:
   - name: cacaoaccounting
     buildsystem: simple
     build-commands:
-      - install -D com.cacaoaccounting.CacaoAccounting.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - install -D com.cacaoaccounting.CacaoAccounting.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
       - install -D 256x256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
       - install -D scalable.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
     sources:
