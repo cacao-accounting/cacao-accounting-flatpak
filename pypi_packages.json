@@ -55,8 +55,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c6/c9/9cd84cbd5816aa8bee5fd5a00f857efd636ec30586848d571b67baf0b868/Mako-1.3.3-py3-none-any.whl",
-            "sha256": "5324b88089a8978bf76d1629774fcc2f1c07b82acdf00f4c5dd8ceadfffc4b40"
+            "url": "https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl",
+            "sha256": "260f1dbc3a519453a9c856dedfe4beb4e50bd5a26d96386cb6c80856556bb91a"
         },
         {
             "type": "file",
@@ -229,8 +229,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/be/c3/1765e019344d3f042dfe750eb9a424c0ea2fd43deb6b2ac176b5603a436e/lxml-5.2.1-cp311-cp311-manylinux_2_28_x86_64.whl",
-            "sha256": "200e63525948e325d6a13a76ba2911f927ad399ef64f57898cf7c74e69b71095",
+            "url": "https://files.pythonhosted.org/packages/ad/b7/0dc82afed00c4c189cfd0b83464f9a431c66de8e73d911063956a147276a/lxml-5.2.2-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "sha256": "eb00b549b13bd6d884c863554566095bf6fa9c3cecb2e7b399c4bc7904cb33b5",
             "only-arches": [
                 "x86_64"
             ]
@@ -339,8 +339,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/6b/e3/9043c770bdbbacae2e885e7064ee039675bcb6e250f160a54d10760ca074/staging_cacao_accounting_desktop-2024.5.21-py3-none-any.whl",
-            "sha256": "cc0ab45c16120b4cb8630bd86c077d6c0030d7bc127f791cc565bf49477eff2e"
+            "url": "https://files.pythonhosted.org/packages/94/ea/36096d450f85eeb59667ccd490b532431091ebf17708e6bbf36a47720d96/staging_cacao_accounting_desktop-2024.5.22-py3-none-any.whl",
+            "sha256": "78abc6963350451a8e231aa49d4e2e58d87cd341ab5a826ba48a62f130492f42"
         },
         {
             "type": "file",
