@@ -2,7 +2,7 @@
 
 Note: The main Cacao Accounting project is still a work in progress.
 
-## Update requeriments file
+## Update requirements file
 
 ```
 python -m venv venv
@@ -12,7 +12,7 @@ venv/bin/python -m pip freeze --require-virtualenv --isolated --no-input --exclu
 
 Note that cacao-accounting unit tests must past with those libraries in the virtual env. Do not run this on Windows.
 
-## Updata python packages manifest:
+## Update python packages manifest:
 
 Update python packages manifest with
 
