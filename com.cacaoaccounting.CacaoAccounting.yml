@@ -4,7 +4,7 @@ runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 command: cacao_accounting_desktop
 rename-desktop-file: com.cacaoaccounting.CacaoAccounting.desktop.in
-rename-appdata-file: com.cacaoaccounting.CacaoAccounting.metainfo.xml
+rename-appdata-file: com.cacaoaccounting.CacaoAccounting.metainfo.xml.in
 rename-icon: com.cacaoaccounting.CacaoAccounting
 finish-args:
   - --socket=fallback-x11
@@ -17,6 +17,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D com.cacaoaccounting.CacaoAccounting.desktop.in ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop.in
+      - install -D com.cacaoaccounting.CacaoAccounting.metainfo.xml.in ${FLATPAK_DEST}//share/metainfo/${FLATPAK_ID}.metainfo.xml.in
       - install -D 32x32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/${FLATPAK_ID}.png
       - install -D 48x48.png ${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/${FLATPAK_ID}.png
       - install -D 64x64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
@@ -26,7 +27,7 @@ modules:
       - type: file
         path: com.cacaoaccounting.CacaoAccounting.desktop.in
       - type: file
-        path: com.cacaoaccounting.CacaoAccounting.metainfo.xml
+        path: com.cacaoaccounting.CacaoAccounting.metainfo.xml.in
       - type: file
         path: icons/32x32.png
       - type: file
