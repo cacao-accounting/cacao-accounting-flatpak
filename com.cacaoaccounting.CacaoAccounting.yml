@@ -17,6 +17,9 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D com.cacaoaccounting.CacaoAccounting.desktop.in ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop.in
+      - install -D 32x32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/${FLATPAK_ID}.png
+      - install -D 48x48.png ${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/${FLATPAK_ID}.png
+      - install -D 64x64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
       - install -D 256x256.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
       - install -D scalable.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
     sources:
@@ -24,6 +27,12 @@ modules:
         path: com.cacaoaccounting.CacaoAccounting.desktop.in
       - type: file
         path: com.cacaoaccounting.CacaoAccounting.metainfo.xml
+      - type: file
+        path: icons/32x32.png
+      - type: file
+        path: icons/48x48.png
+      - type: file
+        path: icons/64x64.png
       - type: file
         path: icons/256x256.png
       - type: file
