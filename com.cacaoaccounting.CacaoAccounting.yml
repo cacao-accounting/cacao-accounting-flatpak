@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 command: cacao_accounting_desktop
-rename-desktop-file: com.cacaoaccounting.CacaoAccounting.desktop
+rename-desktop-file: com.cacaoaccounting.CacaoAccounting.desktop.in
 rename-appdata-file: com.cacaoaccounting.CacaoAccounting.metainfo.xml
 rename-icon: com.cacaoaccounting.CacaoAccounting
 finish-args:
