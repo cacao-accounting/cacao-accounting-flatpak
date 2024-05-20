@@ -4,11 +4,11 @@
   <id>com.cacaoaccounting.CacaoAccounting</id>
   <name>Cacao Accounting</name>
   <developer_name>BMO Soluciones</developer_name>
-  <developer id="dev.pulsar_edit">
+  <developer id="solutions.bmogroup">
     <name translatable="no">BMO Soluciones</name>
   </developer>
   <summary>Accounting solution for small and medium businesses</summary>
-  <launchable type="desktop-id">com.cacaoaccountig.CacaoAccounting.desktop</launchable>
+  <launchable>com.cacaoaccountig.CacaoAccounting.desktop</launchable>
   <metadata_license>CC-BY-4.0</metadata_license>
   <project_license>Apache-2.0</project_license>
   <url type="homepage">https://github.com/cacao-accounting</url>
@@ -20,7 +20,9 @@
   </branding>
   <update_contact>development@bmogroup.solutions</update_contact>
   <description>
-    <p>Pulsar aims to not only reach feature parity with the original Atom text editor, but update the underlying architecture and support modern features.</p>
+    <p>
+      Pulsar aims to not only reach feature parity with the original Atom text editor, but update the underlying architecture and support modern features.
+    </p>
   </description>
   <screenshots>
     <screenshot type="default">
