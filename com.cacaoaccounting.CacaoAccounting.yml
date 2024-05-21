@@ -9,9 +9,7 @@ rename-icon: com.cacaoaccounting.CacaoAccounting
 finish-args:
   - --socket=fallback-x11
   - --socket=wayland
-  # Need acces to search a web browser in the OS
-  # See: https://github.com/ClimenteA/flaskwebgui/blob/master/src/flaskwebgui.py#L48
-  - --filesystem=host-os:ro
+  - --share=network
 modules:
   - python_tkinter.json
   - pypi_packages.json
