@@ -2,7 +2,7 @@
     "name": "python3-package-installation",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation alembic appdirs asn1crypto Babel backports.functools-lru-cache bcrypt beautifulsoup4 blinker Brotli cffi charset-normalizer click cryptography cssselect2 CTkMessagebox customtkinter darkdetect et-xmlfile Flask Flask-Alembic flask-babel Flask-Login Flask-SQLAlchemy Flask-WTF flaskwebgui fonttools greenlet html5lib itsdangerous Jinja2 loguru lxml Mako Markdown MarkupSafe numpy openpyxl packaging pandas pdf-reports pg8000 pillow psutil pycparser pydyf PyMySQL pyphen pypugjs python-dateutil pytz scramp six soupsieve SQLAlchemy staging-cacao-accounting staging-cacao-accounting-desktop teritorio tinycss2 typing-extensions tzdata waitress weasyprint webencodings Werkzeug WTForms WTForms-SQLAlchemy zopfli"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation alembic appdirs asn1crypto Babel backports.functools-lru-cache bcrypt beautifulsoup4 blinker Brotli cffi charset-normalizer click cryptography cssselect2 CTkMessagebox customtkinter darkdetect et-xmlfile Flask Flask-Alembic flask-babel Flask-Login Flask-SQLAlchemy Flask-WTF flaskwebgui fonttools greenlet html5lib itsdangerous Jinja2 loguru lxml Mako Markdown MarkupSafe numpy openpyxl packaging pandas pdf-reports pg8000 pillow psutil pycparser pydyf PyMySQL pyphen pypugjs python-dateutil python-ulid pytz scramp six soupsieve SQLAlchemy staging-cacao-accounting staging-cacao-accounting-desktop teritorio tinycss2 typing-extensions tzdata waitress weasyprint webencodings Werkzeug WTForms WTForms-SQLAlchemy zopfli"
     ],
     "sources": [
         {
@@ -73,8 +73,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e5/30/20467e39523d0cfc2b6227902d3687a16364307260c75e6a1cb4422b0c62/PyMySQL-1.1.0-py3-none-any.whl",
-            "sha256": "8969ec6d763c856f7073c4c64662882675702efcb114b4bcbb955aea3a069fa7"
+            "url": "https://files.pythonhosted.org/packages/0c/94/e4181a1f6286f545507528c78016e00065ea913276888db2262507693ce5/PyMySQL-1.1.1-py3-none-any.whl",
+            "sha256": "4de15da4c61dc132f4fb9ab763063e693d521a80fd0e87943b9a453dd4c19d6c"
         },
         {
             "type": "file",
@@ -198,8 +198,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/c6/b5/dc17e93f60567fa1b0fa3720c2f28e0df5293927e2356e066e87af9adaba/fonttools-4.51.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "b2b92381f37b39ba2fc98c3a45a9d6383bfc9916a87d66ccb6553f7bdd129097",
+            "url": "https://files.pythonhosted.org/packages/0a/79/b5be063ea65d048a041ad8438fa1e8c7c4bf9dc3f4ac2794a850fe70c5c5/fonttools-4.53.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "fa1f3e34373aa16045484b4d9d352d4c6b5f9f77ac77a178252ccbc851e8b2ee",
             "only-arches": [
                 "x86_64"
             ]
@@ -245,8 +245,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/6a/94/a59521de836ef0da54aaf50da6c4da8fb4072fb3053fa71f052fd9399e7a/openpyxl-3.1.2-py2.py3-none-any.whl",
-            "sha256": "f91456ead12ab3c6c2e9491cf33ba6d08357d802192379bb482f1033ade496f5"
+            "url": "https://files.pythonhosted.org/packages/58/d9/796181a30827b12101786c21301f0f4536597a9249530916b1fdb5bbad91/openpyxl-3.1.3-py2.py3-none-any.whl",
+            "sha256": "25071b558db709de9e8782c3d3e058af3b23ffb2fc6f40c8f0c45a154eced2c3"
         },
         {
             "type": "file",
@@ -304,13 +304,18 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/44/20/939a5a52c3fcf1da1d541dca809909676c7a0d007bfe772e9505fdebf684/pypugjs-5.9.12-py2.py3-none-any.whl",
-            "sha256": "7255d892407c6be542430aefcfa9d539198ce9aacdd10d18a765a63b886d1761"
+            "url": "https://files.pythonhosted.org/packages/67/53/0bd7ff92b3729ba92d55d2df006a843c0dbad61a4fe890a94e3ba2fe2847/pypugjs-5.11.0-py2.py3-none-any.whl",
+            "sha256": "707a9036d3b74fd827b73dde3db254c4bf70e59829fffbe51fcfdc4f279fbb51"
         },
         {
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
             "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/e8/94/12a54478cb71eb885e4205b5f7c11bc91b2b902684b5ca337dd231f62f49/python_ulid-2.6.0-py3-none-any.whl",
+            "sha256": "b47cc7a427b82f7526af96385d7702685df808e9b4922523dd5988a3ba98a89d"
         },
         {
             "type": "file",
@@ -334,13 +339,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/91/8c/8bace524a45d15e9af39a54ea8f7762c79e69183c9cd2b09d0f3e3dd61ad/staging_cacao_accounting-0.0.2rc20240531-py3-none-any.whl",
-            "sha256": "29232a67eb4baba49d5c373bd331f3be57362f73eec3f188c567ff5df405fb70"
+            "url": "https://files.pythonhosted.org/packages/a6/23/f156ee054b39b55d2501ee6bc50c12bcc977048554b9a2d2d2fdbfed3872/staging_cacao_accounting-0.0.2rc20240532-py3-none-any.whl",
+            "sha256": "558557bfc64e7f5666af22f72abf50d0472201160f905abe3825b5dae8f67ddb"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/94/ea/36096d450f85eeb59667ccd490b532431091ebf17708e6bbf36a47720d96/staging_cacao_accounting_desktop-2024.5.22-py3-none-any.whl",
-            "sha256": "78abc6963350451a8e231aa49d4e2e58d87cd341ab5a826ba48a62f130492f42"
+            "url": "https://files.pythonhosted.org/packages/74/c0/abc968637be1e9808c2f653067521fb471fb79e7ef53a23833865c3a2455/staging_cacao_accounting_desktop-2024.5.31-py3-none-any.whl",
+            "sha256": "2faf2e57a01aae171a7d85c7652b572a13158741e6fe075c406f034c1c2f273d"
         },
         {
             "type": "file",
@@ -354,8 +359,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/01/f3/936e209267d6ef7510322191003885de524fc48d1b43269810cd589ceaf5/typing_extensions-4.11.0-py3-none-any.whl",
-            "sha256": "c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"
+            "url": "https://files.pythonhosted.org/packages/e1/4d/d612de852a0bc64a64418e1cef25fe1914c5b1611e34cc271ed7e36174c8/typing_extensions-4.12.0-py3-none-any.whl",
+            "sha256": "b349c66bea9016ac22978d800cfff206d5f9816951f12a7d0ec5578b0a819594"
         },
         {
             "type": "file",
