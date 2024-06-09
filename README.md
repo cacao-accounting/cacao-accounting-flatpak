@@ -1,4 +1,5 @@
 # Flatpak packaging for Cacao Accounting Desktop
+[![CI](https://github.com/cacao-accounting/cacao-accounting-flatpak/actions/workflows/flatpak.yml/badge.svg)](https://github.com/cacao-accounting/cacao-accounting-flatpak/actions/workflows/flatpak.yml)
 
 Note: The main Cacao Accounting project is still a work in progress.
 
