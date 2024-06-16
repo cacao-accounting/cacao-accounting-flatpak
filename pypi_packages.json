@@ -339,8 +339,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/dc/67/0b249314214971907a8270035c6f12c0641908a62a8f8342f9ae074f2999/staging_cacao_accounting-0.0.2rc20240609-py3-none-any.whl",
-            "sha256": "12a2e536bf6b84d4f5a66450fb09e3d965c0c7a595c5ef69887ff62cdb5546fe"
+            "url": "https://files.pythonhosted.org/packages/c9/fd/9559a0bdeb7c10aef9924647e932661524967ebeb37efce3282ddc94fc26/staging_cacao_accounting-0.0.2rc20240615-py3-none-any.whl",
+            "sha256": "dec0b40924330cec7e01574a44946bc72a2355c8a95120fd0f2f5acf60d0ee7d"
         },
         {
             "type": "file",
