@@ -20,8 +20,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/3c/a6/5398926f4db33ec8020f8ff5608ca61ced93493cff011d739d0d5826f292/CTkMessagebox-2.5-py3-none-any.whl",
-            "sha256": "b3220c57bca16cec51d310e8d7cad9383dc36b30c943e5913f2e1f1644b6332e"
+            "url": "https://files.pythonhosted.org/packages/b9/e0/827193418fd1c0b2f7c64cb0fec255996e40da69e05b2454fd1375a64eff/CTkMessagebox-2.7-py3-none-any.whl",
+            "sha256": "68941ccab2251f2fd3ac3338a99bdd30d9f28fee4ef0070dfdd0420be1c34a5a"
         },
         {
             "type": "file",
@@ -30,8 +30,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/98/9a/c0e6535ba5ee14bdab311e134f948f572b9e621cad0e7aceebd78048c667/flask_alembic-3.0.1-py3-none-any.whl",
-            "sha256": "cb4b852ab5fb3a256e37d8974e6601ff0bb69ae24cad2e37e63981810c23bd8d"
+            "url": "https://files.pythonhosted.org/packages/86/b4/62a9d839ca9cce357f9fd06d7fddd627872c709cc35eb8425a53015cc846/flask_alembic-3.1.0-py3-none-any.whl",
+            "sha256": "bf094295f49c7cadd3112f4e67dbee92cbd9765b8f1c5fd8b5fda2807ea16a70"
         },
         {
             "type": "file",
@@ -78,8 +78,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/4d/21/87bcad723070f7cd5f9d45fb05557596aa1d23d19eef078b13edc9e31813/SQLAlchemy-2.0.30-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "a1429a4b0f709f19ff3b0cf13675b2b9bfa8a7e79990003207a011c0db880a13",
+            "url": "https://files.pythonhosted.org/packages/bb/be/4045425132a2fde3422e0d2062e6a3b874e385b98b0442c1d7d29ac152bc/SQLAlchemy-2.0.31-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "2196208432deebdfe3b22185d46b08f00ac9d7b01284e168c212919891289396",
             "only-arches": [
                 "x86_64"
             ]
@@ -101,8 +101,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7f/50/9fb3a5c80df6eb6516693270621676980acd6d5a9a7efdbfa273f8d616c7/alembic-1.13.1-py3-none-any.whl",
-            "sha256": "2edcc97bed0bd3272611ce3a98d98279e9c209e7186e43e75bbb1b2bdfdbcc43"
+            "url": "https://files.pythonhosted.org/packages/df/ed/c884465c33c25451e4a5cd4acad154c29e5341e3214e220e7f3478aa4b0d/alembic-1.13.2-py3-none-any.whl",
+            "sha256": "6b8733129a6224a9a711e17c99b08462dbf7cc9670ba8f2e2ae9af860ceb1953"
         },
         {
             "type": "file",
@@ -160,8 +160,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7b/4e/fa4896744259ee8602464ed2c7330b736cc4dd3fd92f63cd56828bf36707/cryptography-42.0.7-cp39-abi3-manylinux_2_28_x86_64.whl",
-            "sha256": "efd0bf5205240182e0f13bcaea41be4fdf5c22c5129fc7ced4a0282ac86998c9",
+            "url": "https://files.pythonhosted.org/packages/fa/e2/b7e6e8c261536c489d9cf908769880d94bd5d9a187e166b0dc838d2e6a56/cryptography-42.0.8-cp39-abi3-manylinux_2_28_x86_64.whl",
+            "sha256": "9c0c1716c8447ee7dbf08d6db2e5c41c688544c61074b54fc4564196f55c25a7",
             "only-arches": [
                 "x86_64"
             ]
@@ -193,13 +193,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/4a/03/9e4bfb9c8feab08b23e7503291992be942cdef35e6189dcefdab71be4a38/flaskwebgui-1.1.1-py3-none-any.whl",
-            "sha256": "68673b26369cda302e03cf304b3e800586cfe19d701c829ad45a7eaf4f423358"
+            "url": "https://files.pythonhosted.org/packages/f8/46/5c42c6f52c4d90f8afc1eb049fcc3e5f7dcc89f95781b32740069503b353/flaskwebgui-1.1.3-py3-none-any.whl",
+            "sha256": "fcee59597483eeaf33469b2303888927a7a3da10da0de206ee98a25025d4a81f"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/0a/79/b5be063ea65d048a041ad8438fa1e8c7c4bf9dc3f4ac2794a850fe70c5c5/fonttools-4.53.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "fa1f3e34373aa16045484b4d9d352d4c6b5f9f77ac77a178252ccbc851e8b2ee",
+            "url": "https://files.pythonhosted.org/packages/a4/22/0a0ad59d9367997fd74a00ad2e88d10559122e09f105e94d34c155aecc0a/fonttools-4.53.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "bee32ea8765e859670c4447b0817514ca79054463b6b79784b08a8df3a4d78e3",
             "only-arches": [
                 "x86_64"
             ]
@@ -237,21 +237,21 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5",
+            "url": "https://files.pythonhosted.org/packages/d1/27/2a7bd6855dc717aeec5f553073a3c426b9c816126555f8e616392eab856b/numpy-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "a7039a136017eaa92c1848152827e1424701532ca8e8967fe480fe1569dae581",
             "only-arches": [
                 "x86_64"
             ]
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/58/d9/796181a30827b12101786c21301f0f4536597a9249530916b1fdb5bbad91/openpyxl-3.1.3-py2.py3-none-any.whl",
-            "sha256": "25071b558db709de9e8782c3d3e058af3b23ffb2fc6f40c8f0c45a154eced2c3"
+            "url": "https://files.pythonhosted.org/packages/c0/da/977ded879c29cbd04de313843e76868e6e13408a94ed6b987245dc7c8506/openpyxl-3.1.5-py2.py3-none-any.whl",
+            "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/49/df/1fceb2f8900f8639e278b056416d49134fb8d84c5942ffaa01ad34782422/packaging-24.0-py3-none-any.whl",
-            "sha256": "2ddfb553fdf02fb784c234c7ba6ccc288296ceabec964ad2eae3777778130bc5"
+            "url": "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "sha256": "5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
         },
         {
             "type": "file",
@@ -273,8 +273,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/81/ff/ad3c942d865f9e45ce84eeb31795e6d4d94e1f1eea51026d5154028510d7/pillow-10.3.0-cp311-cp311-manylinux_2_28_x86_64.whl",
-            "sha256": "1b87bd9d81d179bd8ab871603bd80d8645729939f90b71e62914e816a76fc6bd",
+            "url": "https://files.pythonhosted.org/packages/ba/e5/8c68ff608a4203085158cff5cc2a3c534ec384536d9438c405ed6370d080/pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "sha256": "76a911dfe51a36041f2e756b00f96ed84677cdeb75d25c767f296c1c1eda1319",
             "only-arches": [
                 "x86_64"
             ]
@@ -294,8 +294,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/f1/b3/4b87b0edaa7f2f94c131d01697f936748fc7f74c1ca9622ada372f7256e8/pydyf-0.10.0-py3-none-any.whl",
-            "sha256": "ef76b6c0976a091a9e15827fb5800e5e37e7cd1a3ca4d4bd19d10a14ea8c0ae3"
+            "url": "https://files.pythonhosted.org/packages/c9/ac/d5db977deaf28c6ecbc61bbca269eb3e8f0b3a1f55c8549e5333e606e005/pydyf-0.11.0-py3-none-any.whl",
+            "sha256": "0aaf9e2ebbe786ec7a78ec3fbffa4cdcecde53fd6f563221d53c6bc1328848a3"
         },
         {
             "type": "file",
@@ -314,8 +314,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e8/94/12a54478cb71eb885e4205b5f7c11bc91b2b902684b5ca337dd231f62f49/python_ulid-2.6.0-py3-none-any.whl",
-            "sha256": "b47cc7a427b82f7526af96385d7702685df808e9b4922523dd5988a3ba98a89d"
+            "url": "https://files.pythonhosted.org/packages/e2/48/90be1411fdbd38d291fa9e97621a60b5576d9122449bce4505ddfcfc9328/python_ulid-2.7.0-py3-none-any.whl",
+            "sha256": "c81658e382f69bad8c6d365155c4ae21843ae4226b94f72c12d7adcbb545a251"
         },
         {
             "type": "file",
@@ -359,8 +359,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/e1/4d/d612de852a0bc64a64418e1cef25fe1914c5b1611e34cc271ed7e36174c8/typing_extensions-4.12.0-py3-none-any.whl",
-            "sha256": "b349c66bea9016ac22978d800cfff206d5f9816951f12a7d0ec5578b0a819594"
+            "url": "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "sha256": "04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"
         },
         {
             "type": "file",
@@ -374,8 +374,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/0e/31/a49abf6690be72365a9df7805dd4275d7044eaef807b430d038544a3900b/weasyprint-62.1-py3-none-any.whl",
-            "sha256": "654d4c266336cbf9acc4da118c7778ef5839717e6055d5b8f995cf50be200c46"
+            "url": "https://files.pythonhosted.org/packages/1c/d1/10f4225bec3450e7c0aa5813697ce76eb2dfa1f3c5e530510253b6b276b2/weasyprint-62.3-py3-none-any.whl",
+            "sha256": "d31048646ce15084e135b33e334a61f526aa68d2f679fcc109ed0e0f5edaed21"
         },
         {
             "type": "file",
