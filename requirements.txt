@@ -55,7 +55,7 @@ six==1.16.0
 soupsieve==2.5
 SQLAlchemy==2.0.30
 staging-cacao-accounting==0.0.2rc20240532
-staging-cacao-accounting-desktop==2024.5.31
+staging-cacao-accounting-desktop==2024.7.14
 teritorio==2024.3.18
 tinycss2==1.3.0
 typing_extensions==4.12.0
