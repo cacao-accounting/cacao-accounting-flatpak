@@ -1,3 +1,5 @@
+name: Flatpak Packaging
+
 on:
   push:
     branches: [main]
