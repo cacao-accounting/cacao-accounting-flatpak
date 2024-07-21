@@ -2,7 +2,7 @@
     "name": "python3-package-installation",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation alembic appdirs asn1crypto Babel backports.functools-lru-cache bcrypt beautifulsoup4 blinker Brotli cffi charset-normalizer click cryptography cssselect2 CTkMessagebox customtkinter darkdetect et-xmlfile Flask Flask-Alembic flask-babel Flask-Login Flask-SQLAlchemy Flask-WTF flaskwebgui fonttools greenlet html5lib itsdangerous Jinja2 loguru lxml Mako Markdown MarkupSafe numpy openpyxl packaging pandas pdf-reports pg8000 pillow psutil pycparser pydyf PyMySQL pyphen pypugjs python-dateutil python-ulid pytz scramp six soupsieve SQLAlchemy staging-cacao-accounting staging-cacao-accounting-desktop teritorio tinycss2 typing-extensions tzdata waitress weasyprint webencodings Werkzeug WTForms WTForms-SQLAlchemy zopfli"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation alembic appdirs asn1crypto Babel backports.functools-lru-cache bcrypt beautifulsoup4 blinker Brotli cffi charset-normalizer click cryptography cssselect2 CTkMessagebox customtkinter darkdetect et-xmlfile Flask Flask-Alembic flask-babel Flask-Login Flask-SQLAlchemy Flask-WTF flaskwebgui fonttools greenlet html5lib itsdangerous Jinja2 loguru lxml Mako Markdown MarkupSafe numpy openpyxl packaging pandas pdf-reports pg8000 pillow psutil pycparser pydyf PyMySQL pyphen pypugjs python-dateutil python-ulid pytz pyutilkit scramp six soupsieve SQLAlchemy staging-cacao-accounting staging-cacao-accounting-desktop teritorio tinycss2 typing-extensions tzdata waitress weasyprint webencodings Werkzeug WTForms WTForms-SQLAlchemy zopfli"
     ],
     "sources": [
         {
@@ -160,8 +160,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/fa/e2/b7e6e8c261536c489d9cf908769880d94bd5d9a187e166b0dc838d2e6a56/cryptography-42.0.8-cp39-abi3-manylinux_2_28_x86_64.whl",
-            "sha256": "9c0c1716c8447ee7dbf08d6db2e5c41c688544c61074b54fc4564196f55c25a7",
+            "url": "https://files.pythonhosted.org/packages/0f/6c/b42660b3075ff543065b2c1c5a3d9bedaadcff8ebce2ee981be2babc2934/cryptography-43.0.0-cp39-abi3-manylinux_2_28_x86_64.whl",
+            "sha256": "cb013933d4c127349b3948aa8aaf2f12c0353ad0eccd715ca789c8a0f671646f",
             "only-arches": [
                 "x86_64"
             ]
@@ -324,6 +324,11 @@
         },
         {
             "type": "file",
+            "url": "https://files.pythonhosted.org/packages/f2/a2/1e4685b27d3d3e98bed4697d77d795e3c96602c27e986a66810a9903f345/pyutilkit-0.4.0-py3-none-any.whl",
+            "sha256": "03ca9efc9aa689c17c4c60b43814379674c133460de46129743273f8586a66c1"
+        },
+        {
+            "type": "file",
             "url": "https://files.pythonhosted.org/packages/d9/9f/8b2f2749ccfbe4fcef08650896ac47ed919ff25b7ac57b7a1ae7da16c8c3/scramp-1.4.5-py3-none-any.whl",
             "sha256": "50e37c464fc67f37994e35bee4151e3d8f9320e9c204fca83a5d313c121bbbe7"
         },
@@ -339,8 +344,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/47/d4/aedb1d74aea9a83ca2ab3e4656164a87c96603ac8cbdf773433f3ebf7485/staging_cacao_accounting-0.0.2rc20240617-py3-none-any.whl",
-            "sha256": "ef83a2f78a89cc11d28569684af83cd15e3ea9e96e83298056033566590cb6e8"
+            "url": "https://files.pythonhosted.org/packages/eb/66/ebeed28ca20aa5d26bb79e6c6e0e93d9ec14368d44b28726dad86f5f458d/staging_cacao_accounting-0.0.3rc20240719-py3-none-any.whl",
+            "sha256": "a62ed078a83864b56cabc88b7fcba3f1775ef60956ef231351b9b6e7747aaeaa"
         },
         {
             "type": "file",
@@ -349,8 +354,8 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/7b/c9/f3bd280a0ce6a91a669b31fa803b22f0ff86909c8f5aa38b88e146c25dc9/teritorio-2024.3.18-py3-none-any.whl",
-            "sha256": "71feb08f0ae09c70e9a81f631a50aeadad616dd67dfbd774b7d6cc842600b281"
+            "url": "https://files.pythonhosted.org/packages/e3/61/9888b50d12d6a3a168f1f13f5acc6e785efbb91b2477715943f6d2d47e4d/teritorio-2024.7.17-py3-none-any.whl",
+            "sha256": "abf7874177d17a2eeb7ba06e6a10944adc282e32d9447ebf744d959086184903"
         },
         {
             "type": "file",
