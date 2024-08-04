@@ -1,2 +1,2 @@
-staging-cacao-accounting
-staging-cacao-accounting-desktop
+cacao-accounting
+cacao-accounting-desktop
