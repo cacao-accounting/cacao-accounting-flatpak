@@ -1,9 +1,12 @@
 # Flatpak packaging for Cacao Accounting Desktop
+
 [![CI](https://github.com/cacao-accounting/cacao-accounting-flatpak/actions/workflows/flatpak.yml/badge.svg)](https://github.com/cacao-accounting/cacao-accounting-flatpak/actions/workflows/flatpak.yml)
 
 Note: The main Cacao Accounting project is still a work in progress.
 
 ## Update requirements file
+
+NOTE: Allways start with a clean enviroment. Match the current version of python in the freedesktop sdk, current Python is 3.11
 
 ```
 rm -rf venv
@@ -14,15 +17,15 @@ venv/bin/python -m pip freeze --require-virtualenv --isolated --no-input --exclu
 
 Note that cacao-accounting unit tests must past with those libraries in the virtual enviroment.
 
-Do not run this on Windows, doing so will add unwanted libraries.
+IMPORTANT: Do not run this on Windows, doing so will add unwanted libraries.
 
 ## Update python packages manifest:
 
 Update python packages manifest with
 
 ```
-pip install req2flatpak setuptools
-req2flatpak --requirements-file requirements.txt --target-platforms 311-x86_64 --outfile pypi_packages.json
+venv/bin/pip install req2flatpak setuptools
+venv/bin/req2flatpak --requirements-file requirements.txt --target-platforms 311-x86_64 --outfile pypi_packages.json
 ```
 
 The python version must match the [python version in the freedesktop runtime](https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/blob/master/elements/components/python3.bst).
