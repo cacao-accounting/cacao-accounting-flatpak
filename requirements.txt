@@ -6,8 +6,8 @@ argon2-cffi-bindings==21.2.0
 asn1crypto==1.5.1
 babel==2.16.0
 blinker==1.8.2
-cacao-accounting==0.0.0.dev20240828
-cacao-accounting-desktop==2024.8.18
+cacao-accounting==0.0.0.dev20240902
+cacao-accounting-desktop==2024.9.1
 cffi==1.17.0
 click==8.1.7
 cryptography==43.0.0
