@@ -43,6 +43,7 @@ Current version: Python 3.11
 ```
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub org.freedesktop.Platform//23.08 org.freedesktop.Sdk//23.08
+flatpak install -y org.flatpak.Builder
 flatpak run org.flatpak.Builder build-dir --force-clean com.cacaoaccounting.CacaoAccounting.yml
 ```
 
