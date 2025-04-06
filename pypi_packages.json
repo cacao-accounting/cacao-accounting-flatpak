@@ -2,7 +2,7 @@
     "name": "python3-package-installation",
     "buildsystem": "simple",
     "build-commands": [
-        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation alembic appdirs argon2-cffi argon2-cffi-bindings asn1crypto babel blinker Brotli cacao-accounting cacao-accounting-desktop cachelib cffi click cryptography cssselect2 CTkMessagebox cuid2 customtkinter darkdetect Flask Flask-Alembic flask-babel Flask-Caching Flask-Login Flask-SQLAlchemy Flask-WTF flaskwebgui fonttools greenlet itsdangerous Jinja2 loguru Mako MarkupSafe packaging pg8000 pillow psutil pycparser pydyf PyJWT PyMySQL pyphen python-dateutil python-ulid pytz pyutilkit redis scramp six SQLAlchemy teritorio tinycss2 tinyhtml5 typing_extensions waitress weasyprint webencodings Werkzeug WTForms zopfli"
+        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation alembic appdirs argon2-cffi argon2-cffi-bindings asn1crypto babel blinker Brotli cacao-accounting cacao-accounting-desktop cachelib cffi click cryptography cssselect2 CTkMessagebox cuid2 customtkinter darkdetect Flask Flask-Alembic flask-babel Flask-Caching Flask-Login Flask-SQLAlchemy Flask-WTF flask_weasyprint flaskwebgui fonttools greenlet itsdangerous Jinja2 loguru Mako MarkupSafe packaging pg8000 pillow psutil pycparser pydyf PyJWT PyMySQL pyphen python-dateutil python-ulid pytz pyutilkit redis scramp six SQLAlchemy teritorio tinycss2 tinyhtml5 typing_extensions waitress weasyprint webencodings Werkzeug WTForms zopfli"
     ],
     "sources": [
         {
@@ -134,13 +134,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/b2/40/7fcdf031ffd49d635fb94538eb8fc428e0c3f57ccb45e3d1035e5eab792f/cacao_accounting-0.0.0.dev202412081-py3-none-any.whl",
-            "sha256": "62249ae01dd1abf85f803775890aa39c75553c5056fb4d6a227f54d100a744e9"
+            "url": "https://files.pythonhosted.org/packages/15/17/38e8bf90c60fbbaeaab01eea5303a4855620e4552131881d87f4188901ba/cacao_accounting-0.0.1.dev20250407-py3-none-any.whl",
+            "sha256": "8ec594d24bd26e250207586841f56e9a9bd027a3f720613f5f1b22a82a3d3de1"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/ef/37/20337023f5ff2d5bd47ae8075e4cb026cf9e83a92aed98b1d059f3022fe8/cacao_accounting_desktop-2025.4.6-py3-none-any.whl",
-            "sha256": "d0250bcf8d8d2bea6100af784d9b0f1dc7fc327c3941815bf6ceed6c37b0cba1"
+            "url": "https://files.pythonhosted.org/packages/65/0a/d672ff8e5cc0b16047bf8b1163c689f2f301eb64431b2be9a375b3a3274f/cacao_accounting_desktop-2025.4.7-py3-none-any.whl",
+            "sha256": "f48d6504c954135d74f44342ef9c4a7eeeac68a2ae1f5f52f4eff2c2968d280b"
         },
         {
             "type": "file",
@@ -192,6 +192,11 @@
             "type": "file",
             "url": "https://files.pythonhosted.org/packages/14/c2/e0ab5abe37882e118482884f2ec660cd06da644ddfbceccf5f88f546b574/flask_babel-4.0.0-py3-none-any.whl",
             "sha256": "638194cf91f8b301380f36d70e2034c77ee25b98cb5d80a1626820df9a6d4625"
+        },
+        {
+            "type": "file",
+            "url": "https://files.pythonhosted.org/packages/20/bf/8ca3ab26e3093689c5723fa7a8fd8d2981d27bd4ae4919e56837a80c86ac/flask_weasyprint-1.1.0-py3-none-any.whl",
+            "sha256": "aa2d08e0f788e76c930b101ab3c0b210e60c0d48a30eb0e326fb85d72d7e5509"
         },
         {
             "type": "file",

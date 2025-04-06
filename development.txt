@@ -1,3 +1,2 @@
 cacao-accounting
 cacao-accounting-desktop
-weasyprint
