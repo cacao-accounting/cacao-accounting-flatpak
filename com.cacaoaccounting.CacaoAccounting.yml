@@ -9,6 +9,8 @@ rename-icon: com.cacaoaccounting.CacaoAccounting
 finish-args:
   - --socket=x11
   - --share=network
+  - --filesystem=host-ocs:ro
+
 modules:
   - python_tkinter.json
   - pypi_packages.json
@@ -38,4 +40,14 @@ modules:
       - type: file
         path: icons/scalable.svg
 cleanup:
-      - '/app/bin/waitress-serve'
+  - "/app/bin/waitress-serve"
+  - "/app/bin/ulid"
+  - "/app/bin/fonttools"
+  - "/app/bin/pyftmerge"
+  - "/app/bin/pyftsubset"
+  - "/app/bin/ttx"
+  - "/app/bin/cuid2"
+  - "/app/bin/pybabel"
+  - "/app/bin/flask"
+  - "/app/bin/weasyprint"
+  - "/app/bin/alembic"
