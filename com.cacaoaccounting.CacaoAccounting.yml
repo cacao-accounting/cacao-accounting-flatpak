@@ -1,6 +1,6 @@
 app-id: com.cacaoaccounting.CacaoAccounting
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: cacao_accounting_desktop
 rename-desktop-file: com.cacaoaccounting.CacaoAccounting.desktop.in
@@ -12,7 +12,6 @@ finish-args:
   - --filesystem=host-ocs:ro
 
 modules:
-  - python_tkinter.json
   - pypi_packages.json
   - name: cacaoaccounting
     buildsystem: simple
