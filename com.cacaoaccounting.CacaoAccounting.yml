@@ -10,7 +10,6 @@ rename-appdata-file: com.cacaoaccounting.CacaoAccounting.metainfo.xml.in
 rename-icon: com.cacaoaccounting.CacaoAccounting
 build-options:
   env:
-    - BASEAPP_REMOVE_WEBENGINE=1
     - BASEAPP_DISABLE_NUMPY=1
 finish-args:
   - --socket=x11
@@ -44,5 +43,6 @@ modules:
         path: icons/256x256.png
       - type: file
         path: icons/scalable.svg
-cleanup-commands:
-  - /app/cleanup-BaseApp.sh
+cleanup:
+  - /include
+  - /share/man
