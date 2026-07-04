@@ -1,15 +1,21 @@
 app-id: com.cacaoaccounting.CacaoAccounting
-runtime: org.freedesktop.Platform
-runtime-version: "25.08"
-sdk: org.freedesktop.Sdk
+runtime: org.kde.Platform
+runtime-version: '6.10'
+sdk: org.kde.Sdk
+base: io.qt.PySide.BaseApp
+base-version: '6.10'
 command: cacao_accounting_desktop
 rename-desktop-file: com.cacaoaccounting.CacaoAccounting.desktop.in
 rename-appdata-file: com.cacaoaccounting.CacaoAccounting.metainfo.xml.in
 rename-icon: com.cacaoaccounting.CacaoAccounting
+build-options:
+  env:
+    - BASEAPP_REMOVE_WEBENGINE=1
+    - BASEAPP_DISABLE_NUMPY=1
 finish-args:
   - --socket=x11
   - --share=network
-  - --filesystem=host-ocs:ro
+  - --filesystem=host
 
 modules:
   - pypi_packages.json
@@ -17,7 +23,7 @@ modules:
     buildsystem: simple
     build-commands:
       - install -D com.cacaoaccounting.CacaoAccounting.desktop.in ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop.in
-      - install -D com.cacaoaccounting.CacaoAccounting.metainfo.xml.in ${FLATPAK_DEST}//share/metainfo/${FLATPAK_ID}.metainfo.xml.in
+      - install -D com.cacaoaccounting.CacaoAccounting.metainfo.xml.in ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml.in
       - install -D 32x32.png ${FLATPAK_DEST}/share/icons/hicolor/32x32/apps/${FLATPAK_ID}.png
       - install -D 48x48.png ${FLATPAK_DEST}/share/icons/hicolor/48x48/apps/${FLATPAK_ID}.png
       - install -D 64x64.png ${FLATPAK_DEST}/share/icons/hicolor/64x64/apps/${FLATPAK_ID}.png
@@ -38,15 +44,5 @@ modules:
         path: icons/256x256.png
       - type: file
         path: icons/scalable.svg
-cleanup:
-  - "/app/bin/waitress-serve"
-  - "/app/bin/ulid"
-  - "/app/bin/fonttools"
-  - "/app/bin/pyftmerge"
-  - "/app/bin/pyftsubset"
-  - "/app/bin/ttx"
-  - "/app/bin/cuid2"
-  - "/app/bin/pybabel"
-  - "/app/bin/flask"
-  - "/app/bin/weasyprint"
-  - "/app/bin/alembic"
+cleanup-commands:
+  - /app/cleanup-BaseApp.sh
