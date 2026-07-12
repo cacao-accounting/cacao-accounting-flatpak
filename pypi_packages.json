@@ -129,13 +129,13 @@
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/3b/47/0d7cd239a0b4259f2807426767ebaa4a255d6d02d20f735904eacd8882e2/cacao_accounting-0.0.1.dev20260703-py3-none-any.whl",
-            "sha256": "58e8c5b009126c7543b3ead03655a5d9378a5d4ef6c017622894b187232c47f7"
+            "url": "https://files.pythonhosted.org/packages/15/5e/d41921e71c8a81dc8c2f834d792cea65e83e82eef27baac907535638982e/cacao_accounting-0.0.1.dev20260711-py3-none-any.whl",
+            "sha256": "37f3a815ef8c34e2bc197ed9f9d8c042425fe98d0cb4c0dcf67970994e5199bf"
         },
         {
             "type": "file",
-            "url": "https://files.pythonhosted.org/packages/13/03/4bed342e2a239a9422c68e09a5a58f00cef7e5912a2b7d6b3d4818a81634/cacao_accounting_desktop-2026.7.4-py3-none-any.whl",
-            "sha256": "6e0650f1c3456ede729fe8e146cfcd32803c498342b1ca9bbaae0d11f4993496"
+            "url": "https://files.pythonhosted.org/packages/33/86/0663f16d1d6ce2a4816769b37b5c3735785977621f771f3d344380311d5d/cacao_accounting_desktop-2026.7.11-py3-none-any.whl",
+            "sha256": "cafcb9b7b2ee2233d9e35b39d915c0f84f6e869fe11bc3a013c64caba1fc6f41"
         },
         {
             "type": "file",
